@@ -255,10 +255,11 @@ button {
   background-color: lightslategrey;
   text-align: center;
   cursor: pointer;
-  width: -webkit-fill-available;
+  width: 200px;
   font-size: 18px;
   border-radius: 5px;
   margin: 2%;
+  transition: width 0.6s;
 }
 
 a {
@@ -270,4 +271,5 @@ a {
 button:hover,
 a:hover {
   opacity: 0.7;
+  width: 260px;
 }
